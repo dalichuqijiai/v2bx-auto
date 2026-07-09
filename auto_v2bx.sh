@@ -57,7 +57,7 @@ fi
 
 # 下载安装脚本
 echo ">>> 下载 V2bX 安装脚本..."
-if ! wget -N https://raw.githubusercontent.com/wyx2685/V2bX-script/master/install.sh -O /tmp/v2bx_install.sh 2>/dev/null; then
+if ! wget -N "https://ghproxy.net/https://raw.githubusercontent.com/wyx2685/V2bX-script/master/install.sh" -O /tmp/v2bx_install.sh 2>/dev/null; then
     echo "❌ 下载 install.sh 失败！"
     exit 1
 fi
